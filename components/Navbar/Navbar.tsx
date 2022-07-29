@@ -114,10 +114,10 @@ export function NavbarSimpleColored() {
   ));
 
   return (
-    <Navbar height={850} width={{ sm: 300 }} p="md" className={`${classes.navbar}`}>
+    <Navbar height={`100vh`} width={{ sm: 300 }} p="md" className={`${classes.navbar}`}>
       <Navbar.Section grow>
         <Group className={classes.header} position="apart">
-          <h1 className='text-2xl ml-5'>おでかけ</h1>
+          <h1 className='text-2xl ml-4'>おでかけメモ</h1>
         </Group>
         {links}
       </Navbar.Section>
